@@ -1,12 +1,13 @@
 import "./css/App.css";
-import Project1 from "./pages/Project1";
+import FactSite from "./pages/FactSite";
 import Test from "./pages/Test";
 
 function App() {
   return (
     <div className="App">
       {/* <Test /> */}
-      <Project1 />
+      <FactSite />
+      
     </div>
   );
 }
