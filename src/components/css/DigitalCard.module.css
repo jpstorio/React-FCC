@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+html {
+    background: #23252C;
+}
+
 .card__container {
-    width: 150px;
-    display: flex;
-    height: 150px;
-    background-color: red;
+    border-radius: 5px;
+    width: fit-content;
+    display: block;
+    height: fit-content;
     /* Center vertically and horizontally */
     position: absolute;
     top: 50%;
@@ -16,4 +20,123 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Info Component*/
+.img__container {
+    display: flex;
+    width: 416px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column;
+}
+
+.profile {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.info__name {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.job {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #F3BF99;
+}
+
+.website {
+    font-size: 12.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    margin-top: 15px;
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.details__container {
+    background-color: #1A1B21;
+    height: 100%;
+}
+
+.email, .linkedIn {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.email {
+
+    color: black;
+    padding: 5px 40px;
+    margin-right: 20px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+
+.linkedIn {
+    color: white;
+    padding: 5px 20px;
+    height: 34px;
+    background: #5093E2;
+    border: 1px solid #3781d5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.links__container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.icons {
+    margin-right: 5px;
+}
+
+
+
+
+.interests__heading, .about__heading {
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.interests__container{
+    margin: 0px 30px;
+}
+
+.content{ 
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 30px;
 }
