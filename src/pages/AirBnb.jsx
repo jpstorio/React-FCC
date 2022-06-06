@@ -1,8 +1,9 @@
-import React from 'react'
 
 function AirBnb() {
   return (
-    <div>AirBnb</div>
+    <div>
+      
+    </div>
   )
 }
 
