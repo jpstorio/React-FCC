@@ -4,22 +4,22 @@
 
 }
 
-.nav {
+.nav__ {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav img {
+.img {
   width: 70px;
 }
 
-.nav-items {
+.nav__items {
   list-style: none;
   display: flex;
 }
 
-.nav-items > li {
+.nav__item__li{
   padding: 10px 20px;
 }
 

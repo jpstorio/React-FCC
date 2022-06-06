@@ -1,17 +1,18 @@
-import logo from '../logo.svg'
+import logo from "../logo.svg";
+import styles from "../css/App.module.css";
 
 function Header() {
   return (
     <div>
       <header>
-        <nav className='nav'>
-					<img src={logo} alt="ReactLogo"/>
-					<ul className='nav-items'>
-						<li>Pricing</li>
-						<li>About</li>
-						<li>Contact</li>
-					</ul>
-				</nav>
+        <nav className={styles.nav__}>
+          <img className={styles.img} src={logo} alt="ReactLogo" />
+          <ul className={styles.nav__items}>
+            <li className={styles.nav__item__li}>Pricing</li>
+            <li className={styles.nav__item__li}>About</li>
+            <li className={styles.nav__item__li}>Contact</li>
+          </ul>
+        </nav>
       </header>
     </div>
   );

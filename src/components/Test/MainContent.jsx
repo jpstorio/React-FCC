@@ -1,3 +1,5 @@
+import styles from "../css/App.module.css";
+
 function MainContent() {
   return (
     <div>
